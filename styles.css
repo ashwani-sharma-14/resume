@@ -1,0 +1,97 @@
+/* General Reset */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.header p {
+    font-size: 1.1em;
+    color: #666;
+    margin: 5px 0;
+}
+
+.header a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.5em;
+    color: #444;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.section ul li {
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.section ul li::before {
+    content: "\2022";
+    color: #007BFF;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Link Styles */
+.section a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.section p {
+    margin-bottom: 10px;
+    color: #555;
+}
